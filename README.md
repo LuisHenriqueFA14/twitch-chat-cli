@@ -7,9 +7,12 @@
 Twitch chat cli is a cli tool to list the chat of some twitch stream.
 
 ### Install
-To install you just have to clone this repository, then run these commands:
+To install you just have to clone this repository or get the binary in <a href="https://github.com/LuisHenriqueFA14/twitch-chat-cli/releases/tag/production">releases page</a>:
 
+By compiling:
 ```
+git clone https://github.com/LuisHenriqueFA14/twitch-chat-cli.git
+
 cd twitch-chat-cli
 
 chmod +x scripts/build.sh
@@ -17,15 +20,20 @@ chmod +x scripts/build.sh
 ./scripts/build.sh
 ```
 
+By binary:
+```
+mv <binary_name> twitch
+
+chmod +x <twitch>
+```
+
 ### Usage
 
-The binary will be at  `./build/twitch`
-
-And you can use it by typing `./build/twitch <stream>`
+You can use it by typing `twitch <stream>`
 
 Example:
 ```
-./build/twitch theprimeagen
+twitch theprimeagen
 ```
 
 ### How does it look like ?
